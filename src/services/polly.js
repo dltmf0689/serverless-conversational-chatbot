@@ -23,8 +23,8 @@ export async function usePolly(text,
         "SampleRate": "16000",
         "Text": text,
         "TextType": "text",
-        "LanguageCode": 'en-US',
-        "VoiceId": 'Matthew'
+        "LanguageCode": 'ko-KR',
+        "VoiceId": 'Seoyeon'
       };
   
       const command = new SynthesizeSpeechCommand(input);

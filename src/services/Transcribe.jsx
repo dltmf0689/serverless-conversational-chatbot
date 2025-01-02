@@ -36,7 +36,7 @@ const Transcribe = forwardRef(function Transcribe(props, ref) {
     const [micColor, setMicColor] = useState('primary');
     const [micVisibility, setMicVisibility] = useState('hidden');
     const [isRecording, setIsRecording] = useState(false);
-    const [language, setLanguage] = useState('en-US');
+    const [language, setLanguage] = useState('ko-KR');
 
     let microphoneStream = undefined;
 
